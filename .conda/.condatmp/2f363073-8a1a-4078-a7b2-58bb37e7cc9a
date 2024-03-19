@@ -1,0 +1,13 @@
+prefix=c:/tic tac toe in python/.conda/Library
+exec_prefix=c:/tic tac toe in python/.conda/Library
+libdir=c:/tic tac toe in python/.conda/Library/lib
+sharedlibdir=c:/tic tac toe in python/.conda/Library/lib
+includedir=c:/tic tac toe in python/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
